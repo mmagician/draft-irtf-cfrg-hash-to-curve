@@ -21,7 +21,7 @@ B = F(1)
 # Ap and Bp define isogenous curve y^2 = x^3 + Ap * x + Bp
 Ap = F(0x1ae3a4617c510ea34b3c4687866d1616212919cefb9b37e860f40fde03873fc0a0bf847bffffff8b9857ffffffffff2)
 Bp = F(0x16)
-h_eff = 0x170b5d44300000000000000000000000
+h_eff = 0x8508c00000000000 # h_eff is (x - 1) for BLS12-377
 iso_map = iso_bls12377g1()
 
 def bls12377g1_svdw(suite_name, is_ro):

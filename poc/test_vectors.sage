@@ -165,6 +165,7 @@ ALL_SUITES = [
     monty25519_sha512_nu, monty448_hash_nu,
     bls12381g1_sswu_ro, bls12381g2_sswu_ro,
     bls12381g1_sswu_nu, bls12381g2_sswu_nu,
+    bls12377g1_sswu_ro, bls12377g1_sswu_nu,
 ]
 
 ALL_EXPANDERS = [
