@@ -45,8 +45,8 @@ bls12377g1_svdw_nu = BasicH2CSuite(suite_name,bls12377g1_svdw(suite_name, False)
 suite_name = "BLS12377G1_XMD:SHA-256_SSWU_NU_"
 bls12377g1_sswu_nu = IsoH2CSuite(suite_name,bls12377g1_sswu(suite_name, False))
 
-assert bls12377g1_sswu_ro.m2c.Z == bls12377g1_sswu_nu.m2c.Z == 15
-assert bls12377g1_svdw_ro.m2c.Z == bls12377g1_svdw_nu.m2c.Z == -3
+assert bls12377g1_sswu_ro.m2c.Z == bls12377g1_sswu_nu.m2c.Z == -11
+assert bls12377g1_svdw_ro.m2c.Z == bls12377g1_svdw_nu.m2c.Z == 1
 
 bls12377g1_order = 0x12ab655e9a2ca55660b44d1e5c37b00159aa76fed00000010a11800000000001
 
