@@ -59,6 +59,11 @@ try:
         bls12381g2_sswu_ro, \
         bls12381g2_svdw_nu, \
         bls12381g2_sswu_nu
+    from sagelib.suite_bls12377g1 import \
+        bls12377g1_svdw_ro, \
+        bls12377g1_sswu_ro, \
+        bls12377g1_svdw_nu, \
+        bls12377g1_sswu_nu
 
 except ImportError:
     sys.exit("Error loading preprocessed sage files. Try running `make clean pyfiles`")
