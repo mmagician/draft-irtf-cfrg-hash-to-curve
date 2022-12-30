@@ -28,7 +28,7 @@ def bls12377g1_svdw(suite_name, is_ro):
     dst = test_dst(suite_name)
     k = 128
     expander = XMDExpander(dst, hashlib.sha256, k)
-    return BasicH2CSuiteDef("BLS12-381 G1", F, A, B, expander, hashlib.sha256, 64, GenericSvdW, h_eff, k, is_ro, expander.dst)
+    return BasicH2CSuiteDef("BLS12-377 G1", F, A, B, expander, hashlib.sha256, 64, GenericSvdW, h_eff, k, is_ro, expander.dst)
 
 def bls12377g1_sswu(suite_name, is_ro):
     return IsoH2CSuiteDef(bls12377g1_svdw(suite_name, is_ro)._replace(MapT=GenericSSWU), Ap, Bp, iso_map)

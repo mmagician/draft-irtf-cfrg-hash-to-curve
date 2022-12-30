@@ -2,7 +2,7 @@
   "L": "0x40",
   "Z": "0x1ae3a4617c510eac63b05c06ca1493b1a22d9f300f5138f1ef3622fba094800170b5d44300000008508bffffffffff6",
   "ciphersuite": "BLS12377G1_XMD:SHA-256_SSWU_RO_",
-  "curve": "BLS12-381 G1",
+  "curve": "BLS12-377 G1",
   "dst": "QUUX-V01-CS02-with-BLS12377G1_XMD:SHA-256_SSWU_RO_",
   "expand": "XMD",
   "field": {
